@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spaceship1 : MonoBehaviour {
     //variables
     public int spaceshipSpeed;
-    [Range(-100, 100)]
+    [Range(-1000, 1000)]
     public float spaceshipRotationSpeed;
 
 
@@ -20,6 +20,10 @@ public class Spaceship1 : MonoBehaviour {
         if (Input.GetKey(KeyCode.D))
         {
             transform.Rotate(0f, 0f, -spaceshipRotationSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(0f, 0f, spaceshipRotationSpeed * Time.deltaTime);
         }
 
             
