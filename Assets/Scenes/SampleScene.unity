@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afc4a98da929c254497d305f608570d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spaceshipSpeed: 5
-  spaceshipRotationSpeed: 100
+  spaceshipSpeed: 10
+  spaceshipRotationSpeed: 304
 --- !u!212 &957803969
 SpriteRenderer:
   m_ObjectHideFlags: 0
