@@ -161,7 +161,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.027936
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -185,7 +185,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.07, y: 1.07, z: 1.07}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -255,7 +255,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a638e0a7f68462c43a271debc65f1050, type: 3}
-  m_Color: {r: 0.1764706, g: 0.19215688, b: 0.5294118, a: 1}
+  m_Color: {r: 0.6784314, g: 0.08627451, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -294,7 +294,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spaceshipSpeed: 10
-  spaceshipRotationSpeed: 304
+  spaceshipRotationSpeed1: 300
+  spaceshipRotationSpeed2: 150
+  spaceshipBodyColor: {fileID: 957803969}
+  newcolor: {r: 0, g: 0, b: 0, a: 0}
+  timer: 0
+  timerPrint: 0
 --- !u!212 &957803969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -331,7 +336,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4508864d4fe107a42a7544f19ad959eb, type: 3}
-  m_Color: {r: 0, g: 0.012075277, b: 0.38679248, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -348,7 +353,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957803967}
   m_LocalRotation: {x: -0, y: -0, z: 0.00028697445, w: 1}
-  m_LocalPosition: {x: -0.02, y: -5.52, z: 0}
+  m_LocalPosition: {x: -4.97, y: -1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1330443299}
@@ -422,7 +427,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a638e0a7f68462c43a271debc65f1050, type: 3}
-  m_Color: {r: 0.1769313, g: 0.19400707, b: 0.5283019, a: 1}
+  m_Color: {r: 0.6792453, g: 0.088048995, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
