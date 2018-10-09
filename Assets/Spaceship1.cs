@@ -29,7 +29,7 @@ public class Spaceship1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //code for movement of the spaceship and the change of color if rotating. 
+        //code for movement of the spaceship and the change of color if rotating.
         transform.Translate(0, spaceshipSpeed * Time.deltaTime, 0, Space.Self);
         if (Input.GetKey(KeyCode.D))
         {

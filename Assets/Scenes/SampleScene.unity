@@ -161,7 +161,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.027936
+  orthographic size: 5.614805
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -294,8 +294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spaceshipSpeed: 10
-  spaceshipRotationSpeed1: 300
-  spaceshipRotationSpeed2: 150
   spaceshipBodyColor: {fileID: 957803969}
   newcolor: {r: 0, g: 0, b: 0, a: 0}
   timer: 0
